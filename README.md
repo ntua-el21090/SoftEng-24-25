@@ -1,4 +1,10 @@
 # TOLLIS (Toll Interoperability System)
+This project implements an integrated software system for managing the interoperability of toll systems across Greek motorways. The system collects, stores, analyzes, and exposes toll-pass data through a RESTful API, a Command Line Interface (CLI), and a web-based frontend.
+
+It supports core operations such as toll-pass registration, financial settlement calculations between operators, data analysis for stakeholders, and administrative actions (system initialization, data import, health checks).
+The CLI mirrors these operations, enabling scripted interaction with the system.
+The project also includes complete documentation (SRS, UML diagrams, API specs), automated tests, and use of GitHub project management and AI-assisted development tools.
+
 
 Software Dependencies :
 - Python >= 3.10 (in PATH)
